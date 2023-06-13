@@ -56,7 +56,7 @@ export default {
 @use "../style/general.scss";
 
 #TheCompany {
-    height: 500px;
+    height: 600px;
     background-color: #111117;
 
     .container {

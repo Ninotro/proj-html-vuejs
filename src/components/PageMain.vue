@@ -6,6 +6,7 @@ import TheCompany from "./TheCompany.vue"
 import BusinessArea from "./BusinessArea.vue";
 import processManagement from "./processManagement.vue";
 import teamOfExpert from "./teamOfExpert.vue"
+import LatestNews from "./latestNews.vue";
 
 
 
@@ -18,7 +19,7 @@ export default {
     BusinessArea,
     processManagement,
     teamOfExpert,
-    
+    LatestNews
 },
   data () {
     return {
@@ -37,6 +38,7 @@ export default {
             <BusinessArea/>
             <processManagement/>
             <teamOfExpert/>
+            <LatestNews/>
 
         </div>
       

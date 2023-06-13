@@ -103,6 +103,21 @@ export const store = reactive ({
           role: "CEO & PRESIDENT"
         },
 
-      ] 
+      ],
+
+      Arrayimg : [
+        {
+          url: "./news-1.jpg",
+          description: "Increasing creativity is possible for everyone",
+        },
+        {
+          url: "./news-2.jpg",
+          description: "Because market research is part of the business plan",
+        },
+        {
+          url: "./news-3.jpg",
+          description: "Working from home is now a trend",
+        },
+      ]
       
 });

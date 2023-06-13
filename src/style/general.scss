@@ -27,11 +27,18 @@ ul {
     cursor: pointer;
 }
 
+.custom-button:hover {
+    color: white;
+    background-color: #A1FCDF;
+}
+
 .custom-input {
     background-color:#ccd0d3;
     padding: 10px;
     width: 300px;
 }
+
+
 
 input[type="text"] {
     background-color: transparent;
