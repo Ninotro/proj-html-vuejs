@@ -5,7 +5,8 @@ import Jumbotron from "./Jumbotron.vue";
 import TheCompany from "./TheCompany.vue"
 import BusinessArea from "./BusinessArea.vue";
 import processManagement from "./processManagement.vue";
-import ProcessManagement from "./processManagement.vue";
+import teamOfExpert from "./teamOfExpert.vue"
+
 
 
 export default {
@@ -16,6 +17,7 @@ export default {
     TheCompany,
     BusinessArea,
     processManagement,
+    teamOfExpert,
     
 },
   data () {
@@ -34,6 +36,8 @@ export default {
             <TheCompany/>
             <BusinessArea/>
             <processManagement/>
+            <teamOfExpert/>
+
         </div>
       
    </main>
