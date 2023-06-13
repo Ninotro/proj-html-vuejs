@@ -24,5 +24,61 @@ export const store = reactive ({
           icona: 'fa-brands fa-linkedin-in',
           link: '#'
         }
-      ]
+      ],
+
+      menuTheCompany : [
+        {
+          icon: 'fa-solid fa-medal',
+          title: 'Tradition',
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
+        },
+        {
+          icon: 'fa-solid fa-lock',
+          title: 'Security',
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
+        },
+        {
+          icon: 'fa-solid fa-pen-to-square',
+          title: 'Certificate',
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
+        },
+        {
+          icon: 'fa-solid fa-graduation-cap',
+          title: 'Expertise',
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
+        }
+      ],
+      businessAreas : [
+        {
+          icon: "fa-solid fa-network-wired",
+          title: 'Audit & Assurance',
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
+        },
+        {
+          icon: "fa-solid fa-briefcase",
+          title: 'Financial Advisory',
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
+        },
+        {
+          icon: "fa-solid fa-chart-simple",
+          title: 'Analytics and M&A',
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
+        },
+        {
+          icon: "fa-solid fa-plane-departure",
+          title: 'Middle Marketing',
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
+        },
+        {
+          icon: "fa-solid fa-scale-balanced",
+          title: 'Legal consulting',
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
+        },
+        {
+          icon: "fa-solid fa-folder-open",
+          title: 'Regulatory risk',
+          description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
+        }
+      ],
+      
 });

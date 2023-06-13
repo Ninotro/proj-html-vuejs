@@ -93,7 +93,7 @@ export default {
     .container {
         padding-top: 30px;
         height: 200px;
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -114,9 +114,7 @@ export default {
             a {
                color: #5d6a72
             }
-            .custom-button {
-                font-size: 40px;
-            }
+            
         }
     }
     .insurance-counsulting {
@@ -169,7 +167,7 @@ export default {
 }
 
 .custom-button {
-                font-size: 30px;
+                font-size: 25px;
             }
 
 }

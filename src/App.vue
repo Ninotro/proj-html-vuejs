@@ -2,15 +2,16 @@
 import {store} from "../src/store.js"
 import PageHeader from './components/PageHeader.vue';
 import '@fortawesome/fontawesome-free/css/all.css';
-import Jumbotron from "./components/Jumbotron.vue";
-import TheCompany from "./components/TheCompany.vue"
+import PageMain from "./components/PageMain.vue"
 
 
 export default {
+   
+
   components: {
     PageHeader,
-    Jumbotron,
-    TheCompany,
+    PageMain
+    
   },
   data () {
     return {
@@ -21,10 +22,9 @@ export default {
 </script>
 
 <template>
-   <PageHeader/>
+    <PageHeader/>
    <main>
-      <Jumbotron/>
-      <TheCompany/>
+    <PageMain/>
    </main>
    
 </template>

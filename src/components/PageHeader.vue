@@ -1,7 +1,7 @@
 <script>
 
 import {store} from "../store.js"
-import singleLink from "../components/singleLink.vue"
+import singleLink from "../components/singleLink.vue";
 export default {
     
  
@@ -33,7 +33,7 @@ export default {
             </div>
             <nav>
                 <ul>
-                    <!-- <li><a href="#"><i class="fa-solid fa-phone"></i>   +1 (305) 1234-45678</a></li> -->
+                    
                     <singleLink v-for="link in store.menuBar"
                     :details="link"/>
 
@@ -59,9 +59,9 @@ header {
     height: 100px;
     background-color: #132e43;
     .container {
-        font-size: 23px;
+        font-size: px;
         height: 100%;
-        width: 90%;
+        width: 80%;
         margin: 0 auto;
         color: #c0c3d0;
         display: flex;
