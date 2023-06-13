@@ -59,7 +59,7 @@ export default {
 
 
 #processManagement {
-    height: 700px;
+    height: 800px;
     .container {
         height: 70%;
         width:50% ;
@@ -120,9 +120,10 @@ export default {
 
 .containers {
     
-    
+    height: 30%;
     margin: 70px calc(10% - 110px);
     display: flex;
+    
     
    
     justify-content: space-between;

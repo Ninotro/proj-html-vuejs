@@ -61,7 +61,7 @@ export default {
 
     .container {
         height: 100%;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         
         color: white;
@@ -74,7 +74,7 @@ export default {
         #network {
             width: 40%;
          p {
-            color:  #e2e3e7;
+            color:#b6bebc;
             font-size: 25px;
             }
 

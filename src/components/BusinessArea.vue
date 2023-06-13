@@ -68,8 +68,11 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
+        
 
         h3 {
+            margin-top: 100px;
             font-size: 20px;
             color : #00a6a5
         }
@@ -83,6 +86,7 @@ export default {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            width: calc(100% - 10px);
 
             p {
                 font-size: 20px;
@@ -97,12 +101,17 @@ export default {
             margin-top: 40px;
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 100px;
             
-            gap: 20px
+            
         }
     }
 }
 
+.text-area {
+    
+}
 
 
 </style>

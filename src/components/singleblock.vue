@@ -42,9 +42,10 @@ export default {
  }
 
  p {
-  color:  #e2e3e7;
+  color:#b6bebc;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 25px;
  }
 
 }

@@ -17,7 +17,7 @@ export const store = reactive ({
           link: '#'
         },
         {
-          icona: 'fa-brands fa-twitter',
+          icona: 'fa-brands fa-facebook',
           link: '#'
         },
         {
@@ -80,5 +80,29 @@ export const store = reactive ({
           description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel pariatur ut similique saepe tempore.'
         }
       ],
+
+      arrayCard :[
+        {
+          img : "./team-1.jpg",
+          name : "David Cooper" , 
+          role: "CTO & CO-FOUNDER"
+        },
+        {
+          img : "./team-3.jpg",
+          name : "Oliver Jones" , 
+          role: "CHIEF PROCUREMENT"
+        },
+        {
+          img : "./team-2.jpg",
+          name : "Emma Lopez" , 
+          role: "CHIEF MARKETING"
+        },
+        {
+          img : "./team-4.jpg",
+          name : "T.Johnson" , 
+          role: "CEO & PRESIDENT"
+        },
+
+      ] 
       
 });

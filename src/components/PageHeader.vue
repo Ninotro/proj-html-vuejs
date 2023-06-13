@@ -59,9 +59,9 @@ header {
     height: 100px;
     background-color: #132e43;
     .container {
-        font-size: px;
+        font-size:25px;
         height: 100%;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         color: #c0c3d0;
         display: flex;

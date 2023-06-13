@@ -93,7 +93,7 @@ export default {
     .container {
         padding-top: 30px;
         height: 200px;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -123,7 +123,7 @@ export default {
         align-items: center;
         justify-content: flex-end;
         height: 100%;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
 
         .form {
@@ -135,7 +135,7 @@ export default {
         }
 
         h2 {
-            font-size: 100px;
+            font-size: 80px;
             font-weight: bold;
         }
 

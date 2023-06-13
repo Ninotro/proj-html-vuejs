@@ -41,6 +41,7 @@ export default {
   width: calc(100% / 3 - 20px);
   padding: 50px 20px;
   border-radius: 20px;
+  margin-bottom: 20px;
   
 }
 
