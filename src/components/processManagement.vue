@@ -70,13 +70,13 @@ export default {
         justify-content: center;
 
         h3 {
-            font-size: 30px;
+            font-size: 25px;
             color : #00a6a5
         }
 
         h2 {
             margin: 50px auto;
-            font-size: 60px;
+            font-size: 40px;
             font-weight: bold;
 
             span {
@@ -88,7 +88,7 @@ export default {
         }
 
         p {
-                font-size: 33px;
+                font-size: 20px;
                 color:#b6bebc;
                 text-align: center;
             }

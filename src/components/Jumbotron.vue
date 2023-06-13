@@ -43,7 +43,9 @@ export default {
 
         </div>
 
-        <div class="insurance-counsulting">
+        
+        <div class="container2">
+            <div class="insurance-counsulting">
             <div class="form">
                 <h3>
                 FUSIONS & ACQUISITIONS</h3>
@@ -71,6 +73,9 @@ export default {
            
 
         </div>
+            
+        </div>
+        
    </section>
        
      
@@ -83,7 +88,7 @@ export default {
 
 #Jumbotron {
     
-    height: 1400px;
+    height: 1000px;
     background-image:url("/bg-6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,7 +97,7 @@ export default {
     margin: 0 auto; 
     .container {
         padding-top: 30px;
-        height: 200px;
+        height: 150px;
         width: 70%;
         margin: 0 auto;
         display: flex;
@@ -100,16 +105,17 @@ export default {
         align-items: center;
         .logo-next-gen {
             height: 100%;
+            width: 30%;
             img {
                 height: 100%;
-                object-fit: fill;
+                object-fit: cover;
             }
         }
 
         ul {
-            font-size: 40px;
+            font-size: 20px;
             display: flex;
-            gap: 40px;
+            gap: 20px;
             align-items: center;
             a {
                color: #5d6a72
@@ -123,7 +129,7 @@ export default {
         align-items: center;
         justify-content: flex-end;
         height: 100%;
-        width: 70%;
+        width: 100%;
         margin: 0 auto;
 
         .form {
@@ -135,8 +141,9 @@ export default {
         }
 
         h2 {
-            font-size: 80px;
+            font-size: 50px;
             font-weight: bold;
+            margin-bottom: 25px;
         }
 
         
@@ -149,14 +156,14 @@ export default {
         margin-bottom: 10px;
 
         .custom-input {
-          flex: 1;
+          width: 200px
         }
    
     }
     .custom-button.inverted {
     background-color: #fff;
     color: #058283;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 
@@ -167,10 +174,17 @@ export default {
 }
 
 .custom-button {
-                font-size: 25px;
+                font-size: 18px;
             }
 
 }
 
+.container2 {
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
 
 </style>

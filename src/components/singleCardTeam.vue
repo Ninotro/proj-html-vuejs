@@ -51,9 +51,9 @@ export default {
 }
 
 .image-container {
-  flex: 0 0 250px;
-  height: 250px;
-  margin-right: 80px;
+  flex: 0 0 150px;
+  height: 150px;
+  margin-right: 50px;
   overflow: hidden;
 }
 

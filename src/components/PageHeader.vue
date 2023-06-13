@@ -58,8 +58,9 @@ export default {
 header {
     height: 100px;
     background-color: #132e43;
+    width: 100%;
     .container {
-        font-size:25px;
+        font-size:20px;
         height: 100%;
         width: 70%;
         margin: 0 auto;
@@ -73,7 +74,7 @@ header {
 
        ul {
             display: flex;
-            gap: 20px;
+            gap: 10px;
         }
         
     }

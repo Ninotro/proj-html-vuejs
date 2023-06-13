@@ -59,11 +59,11 @@ export default {
 
 
 #BusinessArea {
-    height: 800px;
+    height: 1000px;
     background-color: #eef4ed;
     .container {
         height: 100%;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
@@ -72,14 +72,14 @@ export default {
         
 
         h3 {
-            margin-top: 100px;
+            
             font-size: 20px;
             color : #00a6a5
         }
         
         h2 {
             margin: 40px auto;
-            font-size: 60px;
+            font-size: 40px;
             font-weight: bold;
         }
         #paragraph-button {
@@ -102,7 +102,7 @@ export default {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            margin-bottom: 100px;
+            
             
             
         }

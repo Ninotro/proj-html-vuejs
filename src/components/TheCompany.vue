@@ -67,26 +67,27 @@ export default {
         color: white;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        gap: 80px;
 
      
     
         #network {
-            width: 40%;
+            width: 30%;
          p {
             color:#b6bebc;
-            font-size: 25px;
+            font-size: 20px;
             }
 
         h3 {
             color : #0b5557;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
+            font-size: 20px
         }
         h2 {
-            font-size: 40px;
+            font-size: 30px;
             display: flex;
             align-items: center;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         .the {
         background-color: #0e272d;
         padding: 5px 20px;
@@ -102,11 +103,11 @@ export default {
 
 #menu {
     padding-top: 3%;
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    align-items: flex-start;
+    gap: 15px;
+    justify-content: space-between;
 }
 
 

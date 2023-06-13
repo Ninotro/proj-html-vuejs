@@ -85,17 +85,17 @@ export default {
         margin: 0 auto;
         height: 100%;
         .text-image {
-            width: 60%;
+            width: 70%;
             
             h2 {
 
-                font-size: 50px;
+                font-size: 40px;
                 color: white;
                 font-weight: bold;
                 margin: 30px 0;
                 .the {
                      background-color: #0e272d;
-                    padding: 5px 20px;
+                    padding: 5px 15px;
                     margin-right: 15px;
         
                     }
@@ -103,7 +103,7 @@ export default {
                 }
                 h3 {
                    color : #00a6a5;
-                   font-size: 30px;
+                   font-size: 25px;
             
                 }
 
@@ -126,8 +126,8 @@ export default {
 }
 
 .description {
-    line-height: 40px;
-    padding: 50px 70px;
+    line-height: 30px;
+    padding: 40px 50px;
     width: 30%;
     color: white;
     background-color: #058283;
@@ -135,7 +135,7 @@ export default {
     
 
     h2 {
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 30px;
 
     }

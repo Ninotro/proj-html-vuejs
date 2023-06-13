@@ -32,20 +32,20 @@ export default {
   flex-wrap: wrap;
   i {
   color : #0b5557;
-  font-size: 40px;
-  margin-right: 20px;
+  font-size: 25px;
+  margin-right: 15px;
  }
 
  h1 {
   display: inline-block;
-  font-size: 40px;
+  font-size: 30px;
  }
 
  p {
   color:#b6bebc;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 20px;
  }
 
 }
