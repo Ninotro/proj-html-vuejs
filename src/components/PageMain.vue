@@ -4,6 +4,8 @@ import {store} from "../store.js"
 import Jumbotron from "./Jumbotron.vue";
 import TheCompany from "./TheCompany.vue"
 import BusinessArea from "./BusinessArea.vue";
+import processManagement from "./processManagement.vue";
+import ProcessManagement from "./processManagement.vue";
 
 
 export default {
@@ -13,7 +15,8 @@ export default {
     Jumbotron,
     TheCompany,
     BusinessArea,
-    BusinessArea
+    processManagement,
+    
 },
   data () {
     return {
@@ -30,6 +33,7 @@ export default {
             <Jumbotron/>
             <TheCompany/>
             <BusinessArea/>
+            <processManagement/>
         </div>
       
    </main>

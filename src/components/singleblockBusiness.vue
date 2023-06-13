@@ -39,6 +39,8 @@ export default {
   padding: 20px;
   color: white;
   width: calc(100% / 3 - 20px);
+  padding: 50px 20px;
+  border-radius: 20px;
   
 }
 
