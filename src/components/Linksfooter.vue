@@ -14,7 +14,7 @@ export default {
 
 <template>
   <div class="block">
-    <div class="container">
+    <div class="containers">
       <h2 class="title">{{ title }}</h2>
       <ul class="links">
         <li v-for="(link, index) in links" :key="index">
@@ -31,15 +31,15 @@ export default {
 <style lang="scss" scoped>
 .block {
  
-  height: 450px;
-  width: 400px;
+  height: 350px;
+  width: calc(100% / 3 - 10px);
   background-color: #19191f;
   color: #fff;
   padding: 10px;
   border-radius: 15px;
-  font-size: 25px;
+  font-size: 18px;
   
-  .container {
+  .containers {
     width: 80%;
     height: 80%;
     margin: 10% auto;
@@ -52,7 +52,7 @@ export default {
 }
 
 .links {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .links li {

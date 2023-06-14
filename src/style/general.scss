@@ -17,7 +17,7 @@ ul {
 
 .custom-button {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 10px 20px;
     background-color: #058283;
     color: #fff;
     border: none;
@@ -33,9 +33,11 @@ ul {
 }
 
 .custom-input {
-    background-color:#ccd0d3;
+    background-color: rgba(204, 208, 211, 0.8);
     padding: 10px;
     width: 200px;
+    border-radius: 10px;
+    
 }
 
 

@@ -64,8 +64,9 @@ export default {
         padding: 50px 0;
         h2 {
             margin: 50px auto;
-            font-size: 40px;
+            font-size: 50px;
             font-weight: bold;
+            color:#21333e;
 
             span {
                 background-color: #daeced;
@@ -97,11 +98,11 @@ export default {
 
             p {
                 font-size: 18px;
-                color:#b6bebc;
+                color:#95a8b6;
             }
 
             .custom-button {
-                font-size: 25px;
+                font-size: 15px;
             }
         }
 </style>

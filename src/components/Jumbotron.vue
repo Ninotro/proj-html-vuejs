@@ -49,7 +49,7 @@ export default {
             <div class="form">
                 <h3>
                 FUSIONS & ACQUISITIONS</h3>
-                <h2>INSURANCE CONSULTING</h2>
+                <h2>Insurace Consulting</h2>
                 <div class="form-row">
                     <div class="custom-input">
                         <input type="text" placeholder="Name" />
@@ -88,16 +88,16 @@ export default {
 
 #Jumbotron {
     
-    height: 1400px;
+    height: 850px;
     background-image:url("/bg-6.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center top;
+    background-size: fill;
+    background-position:center top;
      
     margin: 0 auto; 
     .container {
         padding-top: 30px;
-        height: 150px;
+        height: 75px;
         width: 70%;
         margin: 0 auto;
         display: flex;
@@ -115,7 +115,7 @@ export default {
         ul {
             font-size: 20px;
             display: flex;
-            gap: 20px;
+            gap: 25px;
             align-items: center;
             a {
                color: #5d6a72
@@ -136,14 +136,15 @@ export default {
             width: 40%;
             h3 {
             color: #00a9b1;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
             font-weight: bold;
         }
 
         h2 {
-            font-weight: bold;
-            font-size: 40px;
+            font-weight: 900;
+            font-size: 50px;
             margin-bottom: 30px;
+            color:#21333e;
         }
 
         
@@ -164,6 +165,7 @@ export default {
     background-color: #fff;
     color: #058283;
     margin-left: 10px;
+    border: 1px solid  #058283;
 }
 
 

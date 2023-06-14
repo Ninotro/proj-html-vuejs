@@ -50,7 +50,7 @@ export default {
   align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 
@@ -69,11 +69,11 @@ export default {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #248583;
+  color:#21333e;
 }
 
 .description {
   font-size: 20px;
-  color:#b6bebc;
+  color: #95a8b6
 }
 </style>

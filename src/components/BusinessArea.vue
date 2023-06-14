@@ -33,7 +33,7 @@ export default {
         <div class="container">
             <div class="text-area">
                 <h3>OUR BUSINESS AREA</h3>
-                <h2>EXCELLENT IN <span>SERVICES</span></h2>
+                <h2>Excellence in <span>Services</span></h2>
                 <div id="paragraph-button">
                     <p>We are leaders in providing consultancy services with a set of cutting-edge technologies and a team of <br>
                         experienced and renowned professionals.There are some options that you can hire</p>
@@ -81,6 +81,14 @@ export default {
             margin: 40px auto;
             font-size: 40px;
             font-weight: bold;
+            color:#21333e;
+
+            span{
+                background-color: #daeced;
+                padding: 5px 20px;
+                margin-right: 15px;
+                color : #00a6a5 ;
+            }
         }
         #paragraph-button {
             display: flex;
@@ -90,11 +98,11 @@ export default {
 
             p {
                 font-size: 20px;
-                color:#b6bebc;
+                color:#95a8b6
             }
 
             .custom-button {
-                font-size: 25px;
+                font-size: 15px;
             }
         }
         .block-container {

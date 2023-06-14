@@ -72,15 +72,15 @@ export default {
      
     
         #network {
-            width: 30%;
+            width: 50%;
          p {
             color:#b6bebc;
-            font-size: 20px;
+            font-size: 15px;
             }
 
         h3 {
             color : #0b5557;
-            margin-bottom: 25px;
+            margin-bottom: 10px;
             font-size: 20px
         }
         h2 {
@@ -102,8 +102,9 @@ export default {
 }
 
 #menu {
+    padding-right: 30px;
     padding-top: 3%;
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;

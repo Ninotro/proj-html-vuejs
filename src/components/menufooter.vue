@@ -34,9 +34,9 @@ export default {
   <div id="menufooter">
     <div class="container">
       <div class="block-info">
-          <div class="container-img">
-            <img src="/nexgen-logo.svg" alt="">
-          </div>
+            <div class="container-img">
+              <img src="/nexgen-logo.svg" alt="">
+            </div>
           <p>A Functional HTML Template for corporate & Business</p>
           <div class="social"><i :class="store.menuBar[0].icona"></i>{{ store.menuBar[0].testo }}</div>
           <div class="social"><i :class="store.menuBar[1].icona"></i>{{ store.menuBar[1].testo }}</div>
@@ -47,14 +47,15 @@ export default {
         <Linksfooter v-for="(item, index) in store.arrayMenuFooter" :key="index" :title="item.title" :links="item.links" />
       </div>
     </div>
-    <div id="end-footer">
-      <div class="container">
-        <div>Enjoy the low price.We are tracking any intention of piracy</div>
-        <div><i class="fa-regular fa-copyright"></i> NEXGEN is Proudly Powered by <span>Codings</span>.</div>
-      </div>
-
-    </div>
   </div>
+          <div id="end-footer">
+            <div class="container">
+              <div>Enjoy the low price.We are tracking any intention of piracy</div>
+              <div><i class="fa-regular fa-copyright"></i> NEXGEN is Proudly Powered by <span>Codings</span>.</div>
+            </div>
+
+          </div>
+  
        
     
    
@@ -64,8 +65,10 @@ export default {
 @use "../style/general.scss";
 
 #menufooter {
-    height: 700px;
+    
     background-color:  #111117;
+     height: 600px;
+    
     .container {
         height: 100%;
         width: 70%;
@@ -74,14 +77,15 @@ export default {
         align-items: center;
         justify-content: space-between;
         .block-info { 
-            width: 400px;
-            height: 600px;
+            width: 30%;
+            
+            
             color:#b6bebc;
-            font-size: 25px;
+            font-size: 18px;
             .container-img {
                 margin-bottom: 25px;
                 width: 100%;
-                height: 100px;
+                height: 60px;
                 img {
                     height: 100%;
                     object-fit: cover;
@@ -92,6 +96,7 @@ export default {
                 margin-top: 25px;
                 p {
                 margin: 20px 0;
+                font-size: 20px;
             }
 
             i {
@@ -109,7 +114,7 @@ export default {
             color: white;
             background-color: transparent;
             transition: border-color 0.3s;
-            font-size: 25px;
+            font-size: 20px;
             font-weight: bold;
             cursor: pointer;
        
@@ -124,9 +129,10 @@ export default {
 }
 
 .container-links {
-  height: 600px;
+  width: 70%;
+  
   display: flex;
-  gap: 150px
+  gap: 30px
 }
 
 #end-footer {
@@ -134,10 +140,12 @@ export default {
   background-color:#0d0d11;
 
   .container {
+    height: 100%;
     width: 70%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
     font-size: 20px;
 

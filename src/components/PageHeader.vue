@@ -56,7 +56,7 @@ export default {
 @use "../style/general.scss";
 
 header {
-    height: 100px;
+    height: 60px;
     background-color: #132e43;
     width: 100%;
     .container {
@@ -74,7 +74,7 @@ header {
 
        ul {
             display: flex;
-            gap: 10px;
+            gap: 25px;
         }
         
     }

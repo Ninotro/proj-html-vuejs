@@ -35,7 +35,7 @@ export default {
         <div class="flex">
             <div class="text-image">
                 <h3>WE LIKE WHAT WE DO</h3>
-                <h2><span class="the">TEAM</span>OF EXPERT</h2>
+                <h2><span class="the">Team</span>of Expert</h2>
                 <p>Ethics and integrity are the bases on which our professionals build their careers.
                     they are fundamentals that become daily attitutes.
                 </p>
@@ -74,7 +74,7 @@ export default {
 
 
 #teamOfExpert {
-    margin-top: 100px;
+
     padding: 100px 0;
     background-color: #111117;
     display: flex;
@@ -89,7 +89,7 @@ export default {
             
             h2 {
 
-                font-size: 40px;
+                font-size: 50px;
                 color: white;
                 font-weight: bold;
                 margin: 30px 0;
@@ -103,13 +103,13 @@ export default {
                 }
                 h3 {
                    color : #00a6a5;
-                   font-size: 25px;
+                   font-size: 15px;
             
                 }
 
                  p {
                     color:#b6bebc;
-                    font-size: 25px;
+                    font-size: 20px;
                     margin-bottom: 40px;
             
                  }
@@ -128,10 +128,11 @@ export default {
 .description {
     line-height: 30px;
     padding: 30px 30px;
-    width: 25%;
+    width: 30%;
     color: white;
     background-color: #058283;
     font-size: 18px;
+    border-radius: 5px;
     
 
     h2 {

@@ -27,25 +27,25 @@ export default {
 <style lang="scss" scoped >
 
 .block {
-  width: calc(50% - 50px);
+  width: calc(50% - 15px);
   display: flex;
   flex-wrap: wrap;
   i {
   color : #0b5557;
-  font-size: 25px;
+  font-size: 20px;
   margin-right: 15px;
  }
 
  h1 {
   display: inline-block;
-  font-size: 30px;
+  font-size: 20px;
  }
 
  p {
   color:#b6bebc;
   margin-top: 25px;
   margin-bottom: 25px;
-  font-size: 20px;
+  font-size: 15px;
  }
 
 }

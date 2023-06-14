@@ -25,7 +25,7 @@ export default {
         <div class="flex">
             <div class="textarea">
                 <h3>NEWSLETTER</h3>
-                <h2><span class="the">KNOW</span>FIRST</h2>
+                <h2><span class="the">Know</span>First</h2>
                 <p>Follow closely and receive content about our company and the news of the current market.</p>
        </div>
        <div class="form">
@@ -49,17 +49,17 @@ export default {
 @use "../style/general.scss";
 
 #subscribe {
-     height: 800px;
+     height: 400px;
             
             
             
             background-image: url("/bg-1.jpg");
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: fill;
             h2 {
 
-font-size: 40px;
+font-size: 50px;
 color: white;
 font-weight: bold;
 margin: 30px 0;
@@ -73,13 +73,13 @@ margin: 30px 0;
 }
 h3 {
    color : #00a6a5;
-   font-size: 25px;
+   font-size: 20px;
 
 }
 
  p {
     color:#b6bebc;
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom: 40px;
 
  }
@@ -87,16 +87,16 @@ h3 {
 
 
 .custom-input {
-    width: 80%;
+    width: 100%;
     margin-bottom : 15px;
 }
 
 .textarea {
-    width: 50%;
+    width: 40%;
 }
 
 .form {
-    width: 30%;
+    width: 50%;
 }
 
 
@@ -110,7 +110,7 @@ h3 {
 }
 
 .custom-button {
-    width: 200px;
-    font-size: 25px;
+    width: 140px;
+    font-size: 15px;
 }
 </style>

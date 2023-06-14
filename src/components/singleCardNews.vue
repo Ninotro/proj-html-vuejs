@@ -31,7 +31,7 @@ export default {
 <style lang="scss" scoped >
 
 .card {
-  width: calc(100% / 3 - 100px);
+  width: calc(100% / 3 - 20px);
   background-color: #f5f5f5;
   margin-bottom: 20px;
   position: relative;
@@ -41,7 +41,7 @@ export default {
 
 .image {
   width: 100%;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   border-radius: 10px;
   transition: opacity 0.3s ease;
@@ -67,7 +67,7 @@ export default {
 
 .text-container {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   width: 100%;
   padding: 10px;

@@ -51,8 +51,9 @@ export default {
 }
 
 .image-container {
-  flex: 0 0 100px;
-  height: 150px;
+  flex: 0 0 130px;
+  height: 150x;
+  border-radius: 5px;
   
   overflow: hidden;
 }
@@ -66,7 +67,7 @@ export default {
 
 
 .title {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 20px;
   color: white;

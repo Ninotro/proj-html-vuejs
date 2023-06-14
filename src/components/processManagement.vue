@@ -12,7 +12,7 @@ export default {
     
         <div class="container">
             <h3>HOW IT WORKS IN PRACTICE</h3>
-            <h2><span>PROCESS</span>MANAGEMENT</h2>
+            <h2><span>Process</span>Management</h2>
             <p>We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned</p>
         </div>
         <div class="line">
@@ -24,23 +24,23 @@ export default {
         <div class="containers">
             <div class="text-area">
                 <h3>Collection of information</h3>
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="text-area">
                 <h3>Strategic planning</h3>
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="text-area">
                 <h3>Assignment of responsibilities</h3>
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="text-area">
                 <h3>Formatting process</h3>
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="text-area">
                 <h3>Continuity formalization</h3>
-                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             
             
@@ -59,9 +59,12 @@ export default {
 
 
 #processManagement {
-    height: 800px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .container {
-        height: 70%;
+        height: 40%;
         width:50% ;
         margin: 0 auto;
         display: flex;
@@ -70,14 +73,15 @@ export default {
         justify-content: center;
 
         h3 {
-            font-size: 25px;
+            font-size: 20px;
             color : #00a6a5
         }
 
         h2 {
-            margin: 50px auto;
-            font-size: 40px;
+            margin: 30px auto;
+            font-size: 50px;
             font-weight: bold;
+            color:#21333e;
 
             span {
                 background-color: #daeced;
@@ -89,7 +93,7 @@ export default {
 
         p {
                 font-size: 20px;
-                color:#b6bebc;
+                color:#95a8b6;
                 text-align: center;
             }
     }
@@ -100,7 +104,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   
-  height: 20px;
+  height: 5px;
   background-color: #daeced;
   border-radius: 10px;
   padding: 0 10%;
@@ -112,7 +116,7 @@ export default {
   align-items: center;
   justify-content: center;
   background-color: #daeced;
-  padding: 30px;
+  padding: 10px;
   border-radius: 50%;
   color: #248583;
   font-weight: bold;
@@ -121,7 +125,7 @@ export default {
 .containers {
     
     height: 30%;
-    margin: 70px calc(10% - 110px);
+    margin: 30px calc(10% - 110px);
     display: flex;
     
     
@@ -136,7 +140,8 @@ export default {
 
         h3 {
         font-size: 30px;
-        
+        color:#21333e;
+        margin-top: 20px;
         font-weight: bold;
         margin-bottom: 30px;
 
@@ -144,7 +149,7 @@ export default {
 
     p {
                 font-size: 20px;
-                color:#b6bebc;
+                color:#95a8b6
             }
 
     }
