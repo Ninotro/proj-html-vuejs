@@ -60,7 +60,7 @@ header {
     background-color: #132e43;
     width: 100%;
     .container {
-        font-size:20px;
+        font-size:16px;
         height: 100%;
         width: 70%;
         margin: 0 auto;

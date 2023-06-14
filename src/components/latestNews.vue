@@ -96,7 +96,7 @@ export default {
             width: calc(100% - 10px);
 
             p {
-                font-size: 20px;
+                font-size: 18px;
                 color:#b6bebc;
             }
 

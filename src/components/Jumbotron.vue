@@ -88,7 +88,7 @@ export default {
 
 #Jumbotron {
     
-    height: 1000px;
+    height: 1400px;
     background-image:url("/bg-6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +108,7 @@ export default {
             width: 30%;
             img {
                 height: 100%;
-                object-fit: cover;
+                object-fit: fill;
             }
         }
 
@@ -133,7 +133,7 @@ export default {
         margin: 0 auto;
 
         .form {
-            width: 25%;
+            width: 40%;
             h3 {
             color: #00a9b1;
             margin-bottom: 50px;
@@ -141,9 +141,9 @@ export default {
         }
 
         h2 {
-            font-size: 50px;
             font-weight: bold;
-            margin-bottom: 25px;
+            font-size: 40px;
+            margin-bottom: 30px;
         }
 
         

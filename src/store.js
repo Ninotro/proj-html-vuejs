@@ -118,6 +118,49 @@ export const store = reactive ({
           url: "./news-3.jpg",
           description: "Working from home is now a trend",
         },
+      ],
+
+      arrayMenuFooter : [
+        {
+          title: "About",
+          links: [
+            "The company",
+            "Institutional",
+            "Social & Events",
+            "Innovation",
+            "Environment",
+            "Technology"
+          ]
+        },
+        {
+          title: "Services",
+          links: [
+            "Audit & Assurance",
+            "Financial Advisory",
+            "Analytics M&A",
+            "Middle Marketing",
+            "Legal Consulting",
+            "Regulatory risk"
+          ]
+        },
+        {
+          title: "Support",
+          links: [
+            "Responsibility",
+            "Terms of Use",
+            "About cookies",
+            "Privacy Policy",
+            "Accessibility",
+            "Information"
+          ]
+        }
       ]
+      
+      
+      
+      
+      
+      
+      
       
 });

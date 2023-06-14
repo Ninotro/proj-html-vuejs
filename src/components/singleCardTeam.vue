@@ -42,7 +42,7 @@ export default {
 
 .card { 
    
-    width: calc(50% - 10px);
+    width: calc(50% - 30px);
   display: flex;
   align-items: center;
  
@@ -51,9 +51,9 @@ export default {
 }
 
 .image-container {
-  flex: 0 0 150px;
+  flex: 0 0 100px;
   height: 150px;
-  margin-right: 50px;
+  
   overflow: hidden;
 }
 
@@ -66,7 +66,7 @@ export default {
 
 
 .title {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
   color: white;
@@ -86,7 +86,7 @@ export default {
 
 
 .icons i {
-  font-size: 28px;
+  font-size: 20px;
   color: #058283;
   background-color: #0f2128;
   padding: 15px;
@@ -98,5 +98,9 @@ export default {
 .icons i:hover {
   color: white;
   background-color: #058283;
+}
+
+.content {
+  margin-left: 30px;
 }
 </style>

@@ -48,7 +48,7 @@ export default {
 
             <div class="description">
                 <h2>PRESIDENT SPEECH</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur perspiciatis vero commodi culpa.  Vel praesentium inventore nisi ipsa natus error exercitationem iste.  <br> <br> Officiis, quia aperiam! Provident placeat ab necessitatibus.
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur  ipsa natus error exercitationem iste.  <br> <br> Officiis, quia aperiam! Provident placeat ab necessitatibus.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> <br> Mollitia recusandae, suscipit porro maxime vero commodi culpa.
                 </p>
                 <div class="h3-container">
@@ -121,17 +121,17 @@ export default {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px
     
 }
 
 .description {
     line-height: 30px;
-    padding: 40px 50px;
-    width: 30%;
+    padding: 30px 30px;
+    width: 25%;
     color: white;
     background-color: #058283;
-    font-size: 25px;
+    font-size: 18px;
     
 
     h2 {
